@@ -1,0 +1,6 @@
+<div id="jobs"><div class="job" *ngFor="let j of jobs" >
+    <h6>{{j.jobName}}</h6>
+    <p>{{j.area}}</p>
+    <button (click)="showJob(j)" type="button">לפרטים נוספים</button>
+</div></div>
+<router-outlet></router-outlet>

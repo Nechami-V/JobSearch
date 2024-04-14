@@ -1,0 +1,6 @@
+<form #f="ngForm">
+    <input type="text" required placeholder="שם" name="inputName" [(ngModel)]="inputName">
+    <input type="password" required placeholder="סיסמה" name="inputPassword" [(ngModel)]="inputPassword">
+    <button (click)="submitlogin()" type="submit">אישור</button>
+</form>
+<!-- <router-outlet></router-outlet> -->
