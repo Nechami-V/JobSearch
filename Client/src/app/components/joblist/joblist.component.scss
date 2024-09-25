@@ -1,0 +1,12 @@
+.job{
+    background-color: aquamarine;
+    border-style: solid;
+    width: 300px;
+    margin: 10px;
+    height: 300px;
+    
+}
+#jobs{
+    display: flex;
+    flex-wrap: wrap;
+}

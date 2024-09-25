@@ -1,0 +1,6 @@
+<h2>{{job.jobName}}</h2>
+<h5>היקף משרה:{{job.scopeOfHours}}</h5>
+<h5>איזור:{{job.area}}</h5>
+<h5 *ngIf="job.hybrid==true">היברידי</h5>
+<h5>דרישות:{{job.requirements}}</h5>
+<button type="button">שלח קו"ח</button>
